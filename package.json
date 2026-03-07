@@ -1,0 +1,25 @@
+{
+  "name": "team-availability-service",
+  "version": "1.0.0",
+  "description": "REST API for team availability status management",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/server.ts",
+    "start": "node dist/server.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0",
+    "@vitest/coverage-v8": "^1.2.0",
+    "supertest": "^6.3.4",
+    "@types/supertest": "^6.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
