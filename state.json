@@ -1,10 +1,8 @@
 {
-  "last_run": "2026-03-07T22:17:04Z",
+  "last_run": "2026-03-07T23:16:38Z",
   "issues_attempted": [
-    {"issue": 1, "status": "pr_open", "pr": 4, "branch": "repo-assist/issue-1-team-availability-service-d65f58bec108ce55", "timestamp": "2026-03-07T22:17:04Z", "note": "PR #4 open, VERDICT APPROVE from review agent, CI pending"}
+    {"issue": 1, "status": "pr_open", "pr": 4, "branch": "repo-assist/issue-1-team-availability-service-d65f58bec108ce55", "timestamp": "2026-03-07T23:16:38Z", "note": "PR #4 open, VERDICT APPROVE from review agent, awaiting pr-review-submit formal review submission"}
   ],
-  "aw_issues_triaged": [
-    {"issue": 2, "status": "resolved", "resolution": "PR #4 created for issue #1 by repo owner; pipeline permission restriction was root cause", "timestamp": "2026-03-07T22:17:04Z"}
-  ],
+  "aw_issues_triaged": [],
   "backlog_cursor": 1
 }
