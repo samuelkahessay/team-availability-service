@@ -1,0 +1,45 @@
+.DS_Store
+*.swp
+*.swo
+*~
+*.log
+*.db
+*.db-journal
+.env
+.env.*
+.claude/
+node_modules/
+dist/
+.next/
+/out/
+/build
+/coverage
+*.tsbuildinfo
+next-env.d.ts
+.github/aw/
+.vscode/
+.vercel/
+.sisyphus/
+aw-prompts/
+aw_info.json
+mcp-logs/
+*.patch
+.vercel
+
+# .NET
+bin/
+obj/
+*.user
+.vs/
+.azure/
+
+# Drill reports (generated, not committed)
+drills/reports/*.json
+
+# Studio build and test artifacts
+studio/node_modules/
+studio/.next/
+studio/test-results/
+studio/playwright-report/
+test-output.txt
+studio/test-output.txt
