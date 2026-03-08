@@ -16,6 +16,19 @@ export function createApp(repo: AvailabilityRepository): Application {
     next(err);
   });
 
+  app.get('/', (_req: Request, res: Response) => {
+    res.json({
+      service: 'Team Availability Service',
+      endpoints: [
+        'GET    /users/:userId/availability',
+        'POST   /users/:userId/availability',
+        'PUT    /users/:userId/availability/:id',
+        'DELETE /users/:userId/availability/:id',
+        'GET    /team/:teamId/availability',
+      ],
+    });
+  });
+
   app.use('/', createAvailabilityRouter(repo));
 
   // Global error handler — must be after routes
